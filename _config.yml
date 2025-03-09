@@ -72,10 +72,8 @@ content:
   #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
   #       description: | # this will include new lines to allow paragraphs
   #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-
-  - title: Experience # Title for the section
-    content:
+- title: Experience # Title for the section
+  content:
     - layout: left
       title: TikTok
       link: https://www.tiktok.com
@@ -92,9 +90,9 @@ content:
       sub_title: Senior Product Quality Engineer
       caption: January 2022 - November 2022
       quote: >
-        Contributed to the automation of Upstart's loan product UI testing, improving release cycles and test coverage.
+        Spearheaded UI automation testing for Upstart's loan products, improving release cycles and ensuring high test coverage.
       description: |
-        Developed and integrated a Python-Selenium-based automation framework for UI testing. Led daily smoke test automation for new loan product releases, ensuring reliability and performance in a fast-paced fintech environment.
+        Led the development of a Python-Selenium-based UI automation framework. Integrated automated daily smoke testing into CI/CD pipelines, ensuring product stability for newly launched loan products.
     
     - layout: left
       title: Amazon Lab126
@@ -102,9 +100,9 @@ content:
       sub_title: QAE-II
       caption: December 2019 - January 2022
       quote: >
-        Played a key role in end-to-end testing and automation for Amazon’s Astro Robot, ensuring smooth performance and user experience.
+        Played a crucial role in end-to-end testing and automation for Amazon’s Astro Robot, ensuring smooth navigation and performance.
       description: |
-        Led E2E testing initiatives for Amazon’s Astro robot, covering SLAM and navigation. Developed automation scripts using Pytest and managed a QA/QAT team to enhance product reliability before launch.
+        Led E2E testing initiatives for Amazon’s Astro robot, covering SLAM and navigation testing. Developed automation scripts using Pytest and managed a QA/QAT team, ensuring robust quality standards before product launch.
     
     - layout: left
       title: Visa Inc.
@@ -112,18 +110,18 @@ content:
       sub_title: Staff Software Engineer / Staff QA Engineer / Senior QA Engineer
       caption: February 2015 - November 2019
       quote: >
-        Contributed to Visa Tokenization Services and various payment solutions, ensuring secure and scalable payment processing.
+        Contributed to Visa Tokenization Services and multiple digital payment solutions, ensuring secure and seamless transactions.
       description: |
-        Worked on Visa’s Tokenization services and Apple Pay integration. Led integration testing efforts for QR-based payment solutions with partners like Chase and Google. Developed and maintained an end-to-end automation suite for VTS APIs using Java and TestNG.
+        Led integration testing efforts for Visa’s Tokenization Services, including Apple Pay integration. Managed successful testing of QR-based payment solutions, working closely with Chase and Google. Developed an end-to-end automation suite for Visa Token Service APIs using Java and TestNG.
     
     - layout: left
       title: Other Experiences
       sub_title: Senior QA Analyst & Software Engineer
       caption: 2008 - 2015
       quote: >
-        Gained extensive experience in test automation, API testing, and system integration across various organizations.
+        Extensive experience in test automation, API testing, and system integration across various organizations.
       description: |
-        Worked at T-Mobile on mobile app testing and telecom billing applications. At Visa (2008-2014), supported quality assurance for VIP applications using TPF/zTPF systems. Also contributed to various payment security projects and integration testing for major financial services.
+        At T-Mobile, led mobile app testing and telecom billing applications. At Visa (2008-2014), worked on quality assurance for VIP applications using TPF/zTPF systems. Contributed to multiple payment security projects and integration testing for major financial institutions.
 
   #   layout: list # Type of content section (list/text)
   #   content:
