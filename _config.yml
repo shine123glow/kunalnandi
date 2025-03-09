@@ -6,26 +6,26 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Kunal Nandi
+title: Software Engineer in Test
+email: nandi.kunal@rediffmail.com
+website: https://shine123glow.github.io/kunalnandi/
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: facespics
+github_username:  shine123glow
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: jameswgrant
+linkedin_username: shine123glow
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -48,9 +48,10 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Welcome to my personal website !
+  I am Kunal Nandi, a Tech Lead in Software Engineering in Test with over 16 years of experience in quality assurance, test automation, and DevOps. My expertise spans backend API automation, UI automation, fintech security, and large-scale system testing.
+  I have worked with industry leaders like TikTok, Upstart, Amazon, and Visa, where I played a pivotal role in leading test automation initiatives, mentoring teams, and optimizing software testing workflows. I specialize in building scalable automation frameworks, streamlining CI/CD pipelines, and ensuring robust end-to-end testing for mission-critical applications.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
   - title: Projects # Title for the section
