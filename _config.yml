@@ -1,9 +1,55 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Kunal Nandi
+title: Software Engineer in Test
+email: nandi.kunal@rediffmail.com
+website: https://shine123glow.github.io/kunalnandi/
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  shine123glow
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: kunal-nandi-866a9014
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: My homepage
+  icon: fas fa-globe
+  url: https://shine123glow.github.io/kunalnandi/
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile_kunal.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Welcome to my personal website ! |
-  I am **Kunal Nandi**, a **Tech Lead in Software Engineering in Test** with over **16 years of experience** in **quality assurance, test automation, and DevOps**. My expertise spans **backend API automation, UI automation, fintech security, consumer robotics and large-scale system testing**.
+  Welcome to my personal website! <br><br>
+  I am **Kunal Nandi**, a **Tech Lead in Software Engineering in Test** with over **16 years of experience** in **quality assurance, test automation, and DevOps**. My expertise spans **backend API automation, UI automation, fintech security, and large-scale system testing**. <br><br>
   I have worked with **industry leaders like TikTok, Upstart, Amazon, and Visa**, where I played a **pivotal role in leading test automation initiatives, mentoring teams, and optimizing software testing workflows**. I specialize in **building scalable automation frameworks**, streamlining **CI/CD pipelines**, and ensuring robust **end-to-end testing** for mission-critical applications.
 
 content:
@@ -25,18 +71,21 @@ content:
   #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
   #       description: | # this will include new lines to allow paragraphs
   #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
   - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: TikTok
         link: https://www.tiktok.com
+        # link_text: boringcompany.com
         sub_title: Engineering Lead in Software Engineering in Test
         caption: November 2022 - Present
         quote: >
           Leading API automation and functional testing for TikTok's global payment systems, ensuring seamless deployments and high-quality software delivery.
-        description: |
-          Joined as the first full-time engineer in the Global Payment team and built the TikTok USDS Global Payment QA team from scratch. Developed automation frameworks, integrated test suites into CI/CD pipelines, and improved testing efficiency through strategic planning and execution.
-      
+        description: | # this will include new lines to allow paragraphs
+            Joined as the first full-time engineer in the Global Payment team and built the TikTok USDS Global Payment QA team from scratch. Developed automation frameworks, integrated test suites into CI/CD pipelines, and improved testing efficiency through strategic planning and execution, while leading team of 6+ SDETs.
+
       - layout: left
         title: Upstart
         link: https://www.upstart.com
@@ -46,7 +95,7 @@ content:
           Spearheaded UI automation testing for Upstart's loan products, improving release cycles and ensuring high test coverage.
         description: |
           Led the development of a Python-Selenium-based UI automation framework. Integrated automated daily smoke testing into CI/CD pipelines, ensuring product stability for newly launched loan products.
-      
+    
       - layout: left
         title: Amazon Lab126
         link: https://www.amazon.com
@@ -56,7 +105,7 @@ content:
           Played a crucial role in end-to-end testing and automation for Amazon’s Astro Robot, ensuring smooth navigation and performance.
         description: |
           Led E2E testing initiatives for Amazon’s Astro robot, covering SLAM and navigation testing. Developed automation scripts using Pytest and managed a QA/QAT team, ensuring robust quality standards before product launch.
-      
+    
       - layout: left
         title: Visa Inc.
         link: https://www.visa.com
@@ -66,7 +115,7 @@ content:
           Contributed to Visa Tokenization Services and multiple digital payment solutions, ensuring secure and seamless transactions.
         description: |
           Led integration testing efforts for Visa’s Tokenization Services, including Apple Pay integration. Managed successful testing of QR-based payment solutions, working closely with Chase and Google. Developed an end-to-end automation suite for Visa Token Service APIs using Java and TestNG.
-      
+    
       - layout: left
         title: Other Experiences
         sub_title: Senior QA Analyst & Software Engineer
@@ -76,47 +125,42 @@ content:
         description: |
           At T-Mobile, led mobile app testing and telecom billing applications. At Visa (2008-2014), worked on quality assurance for VIP applications using TPF/zTPF systems. Contributed to multiple payment security projects and integration testing for major financial institutions.
 
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: left
-  #       title: TikTok
-  #       link: www.tiktok.com
-  #       # link_text: boringcompany.com
-  #       sub_title: Engineering Lead in Software Engineering in Test 
-  #       caption: November 2022 - Present
-  #       quote: >
-  #         Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-  #       description: | # this will include new lines to allow paragraphs
-  #           Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+  - title: Published Articles # Title for the section
+    layout: text # Type of content section (list/text)
+    content: |
+      ## **<i class="fas fa-book"></i> A Framework for Functional and Performance Testing of the Kidnap Robot Problem in AI-Powered Autonomous Navigation**
+      **Publishing Date:** March 2025  
+      **Publisher:** IRJMETS  
+      **Abstract:**
+      _"The Kidnap Robot Problem occurs when an autonomous robot, which relies on Simultaneous Localization and Mapping (SLAM) for navigation, is suddenly displaced without prior movement history. This event resets its internal localization system, and as a result, it requires rapid Relocalization to restore navigation functionality. This paper presents a structured Functional and Performance testing framework to evaluate SLAM-based Relocalization in AI-driven robots. With this framework, we will analyze robotic relocalization challenges, test the impact of sudden displacement events such as manual lifting, SLAM or navigation crashes, and sensor failures, and measure the efficacy of relocalization algorithms. Results in this paper quantify relocalization recovery time, mapping or floor plan accuracy, and navigation continuity, providing a robust methodology for validating autonomous relocalization systems."_
+      
+      📄 [Read the Full Article](https://www.irjmets.com/uploadedfiles/paper//issue_3_march_2025/68498/final/fin_irjmets1741093576.pdf)
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  - title: Education & Recognitions # Title for the section
+    layout: text # Changing format for better UI presentation
+    content: |
+      ## **Fellow, Institution of Electronics and Telecommunication Engineers (IETE)**
+      **Awarded:** March 2025  
+      **Institution:** [IETE](https://www.iete.org/)  
+    
+      🎖 Recognized for **expertise in fintech security, automation, and software quality assurance**. Achieving this prestigious fellowship highlights my contributions to **software engineering, payments security, and automation testing**.
+    
+      ---
+    
+      ## **Jalpaiguri Government Engineering College**
+      **Years:** 2004 - 2008  
+      **Degree:** B.Tech in Electronics & Communication Engineering  
+      **Institution:** [JGEC](https://www.jgec.ac.in)  
+    
+      🎓 Graduated with a **B.Tech in Electronics & Communication Engineering**, laying the foundation for a career in **technology, software engineering, and automation testing**. Developed a strong foundation in **electronics, communication systems, and software engineering principles**.
+    
+      ---
 
 # Footer
-footer_show_references: true
+footer_show_references: false
+footer_content: |
+    Copyright 2025 Kunal Nandi | 📧 [nandi.kunal@rediffmail.com](mailto:nandi.kunal@rediffmail.com)
 # references_title: References on request (Override references text)
 
 # Build settings
