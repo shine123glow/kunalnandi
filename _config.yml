@@ -129,18 +129,29 @@ content:
   - title: Published Articles # Title for the section
     layout: text # Type of content section (list/text)
     content: |
+      ## **<i class="fas fa-book"></i> Designing Scalable Multi-Agent AI Systems: Leveraging Domain-Driven Design and Event Storming**
+      **Publishing Date:** March 2025  
+      **Publisher:** IJCSE (SSRG International Journal of Computer Science and Engineering)
+      **Abstract:**
+      _"Multi-Agent AI Systems (MAS) are increasingly used to tackle complex real-world problems. By 2025, 82% of orgnizations plan to integrate AI agents (1), with 25% already deploying them (2). This paper explores how combining Event Storming and Domain-Driven Design (DDD) provides a structured approach to designing effective MAS. The integration of these methodologies enhances scalability, robustness, and domain alignment. We demonstrate this approach using a supply chain management case study and discuss best practices for scaling and optimizing MAS."_
+      
+      📄 [Read the Full Article](https://www.internationaljournalssrg.org/IJCSE/2025/Volume12-Issue3/IJCSE-V12I3P102.pdf)
+      
+      <br><br><br>
+
       ## **<i class="fas fa-book"></i> Tokenization Impact on the Payment Industry: Security, Regulatory, and Adoption**
       **Publishing Date:** March 2025  
-      **Publisher:** IJMRA  
+      **Publisher:** IJMRA (International Journal of Management, IT & Engineering)
       **Abstract:**
       _"In the payment ecosystem, traditional payment methods (i.e., card transactions) expose sensitive card details like card numbers, CVV2, and expiry dates to merchants and thirdparty apps (for internet transactions) while performing digital transactions. As a result, it increases the potential for data breaches. In order to solve potential data breaches, tokenization is introduced as an innovative approach that significantly increases security and reduces fraud in payment transactions by replacing these sensitive information with randomly generated unique tokens, preventing unauthorized access. This article discusses the background, real-world case study, market, adoption trends, key participants, and advantages of tokenization in the payment industry, emphasizing its role in securing digital transactions and reducing financial fraud."_
       
       📄 [Read the Full Article](https://ijmra.us/project%20doc/2025/IJME_MARCH2025/IJMIE12_March2025.pdf)
       
-      
+      <br><br><br>
+
       ## **<i class="fas fa-book"></i> A Framework for Functional and Performance Testing of the Kidnap Robot Problem in AI-Powered Autonomous Navigation**
       **Publishing Date:** March 2025  
-      **Publisher:** IRJMETS  
+      **Publisher:** IRJMETS (International Research Journal of Modernization in Engineering Technology and Science)  
       **Abstract:**
       _"The Kidnap Robot Problem occurs when an autonomous robot, which relies on Simultaneous Localization and Mapping (SLAM) for navigation, is suddenly displaced without prior movement history. This event resets its internal localization system, and as a result, it requires rapid Relocalization to restore navigation functionality. This paper presents a structured Functional and Performance testing framework to evaluate SLAM-based Relocalization in AI-driven robots. With this framework, we will analyze robotic relocalization challenges, test the impact of sudden displacement events such as manual lifting, SLAM or navigation crashes, and sensor failures, and measure the efficacy of relocalization algorithms. Results in this paper quantify relocalization recovery time, mapping or floor plan accuracy, and navigation continuity, providing a robust methodology for validating autonomous relocalization systems."_
       
@@ -151,6 +162,21 @@ content:
   - title: Education & Recognitions # Title for the section
     layout: text # Changing format for better UI presentation
     content: |
+
+      ## **Senior Member, Institute of Electrical and Electronics Engineers (IEEE)**
+      **Awarded:** April 2025  
+      **Institution:** [SCRS](https://www.ieee.org/)  
+    
+      🎖 Recognized for **expertise in fintech security, automation, and software quality assurance**. Achieving this prestigious fellowship highlights my contributions to **software engineering, payments security, and automation testing**.
+    
+
+      ## **Fellow, Soft Computing Research Society (SCRS)**
+      **Awarded:** March 2025  
+      **Institution:** [SCRS](https://scrs.in/scrs-fellow/358)  
+    
+      🎖 Kunal Nandi is a Lead SDET in the payments and AI automation industry, with expertise in payment security, test automation, and robotic AI systems. He has played a pivotal role in Visa Token Services (Google Pay, Samsung Pay), TikTok Global Payments automation, Upstart AI-based lending, and Amazon Astro home robotics testing. His research focuses on tokenization security, blockchain-based payments, and automation in fintech & AI-driven robotics. He has authored scholarly articles on tokenization and fintech automation and actively participates in technology judging panels.**.
+    
+
       ## **Fellow, Institution of Electronics and Telecommunication Engineers (IETE)**
       **Awarded:** March 2025  
       **Institution:** [IETE](https://www.iete.org/)  
